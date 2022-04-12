@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>João Pedro | Portfolio</title>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li class="selected"><a href="#home">Home</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <h1>João Pedro</h1>
+    <p>
+      <span class="role">Suporte na <a target="_blank" href="https://agapeconsultoria.com.br/">Ágape Assessoria e Consultoria Ltda.</a></span>
+       Com menos de 1 ano de experiência, sente-se à vontade para trabalhar com as tecnologias mais recentes.
+    </p>
+  </main>
+
+  <main id="portfolio">
+    <h1>Últimos Projetos</h1>
+
+    <div class="projects">
+      <div class="project">
+        <img src="https://play-lh.googleusercontent.com/IEuDOQsg-Og4Pz3HotjVNWmpIrpcR8H8SLk1LnZcC12zu-MgeDa5qzh8zvUWI-rsYqU" alt="Algo Expert Mobile">
+        <div class="project_info">
+          <h3>Ágape Assessoria e Consultoria Ltda</h3>
+
+          <p>
+            Site desenvolvido para treinamento de programação na empresa, com os melhores programdores me dando apoio e suporte.
+          </p>
+
+          <div class="buttons">
+            <button class="algoexpert__Code">
+              <img src="./images/Code.png" alt="Code">
+              Código
+            </button>
+            <button class="algoexpert__Demo">
+              <img src="./images/Demo.png" alt="Demo">
+              Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <main id="about">
+    <div class="container">
+      <div class="about_me">
+        <h3>Prazer,</h3>
+        <h2>Sou o João Pedro</h2>
+
+        <p class="actual">
+          Trabalho com suporte de compudores e de rede com as ferramentas mais sofisticadas do mercado atual.
+        </p>
+
+        <p>
+          Minha paixão é programação e esportes e, geral.
+        </p>
+      </div>
+    </div>
+
+    <div class="experience">
+      <h3>Minha experiência inclui, mas não se limita</h3>
+      <div class="tags">
+        <div class="tag">HTML</div>
+        <div class="tag">CSS</div>
+        <div class="tag">JavaScript</div>
+        <div class="tag">PHP</div>
+        <div class="tag">Java</div>
+
+      </div>
+
+      <div class="tags">
+     
+    </div>
+  </main>
+
+  <main id="contact">
+    <h3>Entre em contato...</h3>
+
+    <form>
+      <div class="form_group">
+        <div class="label_container">
+          <label for="name">Nome</label>
+        </div>
+        <input required type="text" name="name" id="name">
+      </div>
+
+      <div class="form_group">
+        <div class="label_container">
+          <label for="email">Email</label>
+        </div>
+        <input required type="email" name="email" id="email">
+      </div>
+
+      <div class="form_group">
+        <div class="label_container">
+          <label for="message">Mensagem</label>
+        </div>
+        <textarea required name="message" id="message" cols="30" rows="10"></textarea>
+      </div>
+
+      <button class="send" type="submit">
+        <img src="./images/Send.png" alt="Send">
+        Enviar
+      </button>
+    </form>
+
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
